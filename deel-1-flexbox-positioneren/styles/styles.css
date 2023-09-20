@@ -1,1 +1,85 @@
 /*Schrijf hier jouw CSS*/
+
+/*Opdracht 1*/
+
+.list-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*opdracht 2*/
+
+.list-items-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-1-1, .item-1-2, .item-1-3 {
+    flex-basis: 550px;
+}
+
+
+/*opdracht 3*/
+
+.list-items-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.item-1, .item-2, .item-3 {
+}
+
+.item-1 {
+    align-self: flex-start;
+}
+
+.item-2 {
+    align-self: center;
+}
+
+.item-3 {
+    align-self: flex-end;
+}
+
+/*Opdracht 4*/
+
+.list-items-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+
+/*Opdracht 5*/
+
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+
+.column-1 {
+    align-items: flex-start;
+}
+
+.column-2 {
+    align-items: center;
+}
+
+.column-3 {
+    align-items: flex-end;
+}
