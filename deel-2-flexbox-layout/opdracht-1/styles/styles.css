@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    flex-basis: 100px;
+    flex-basis: 150px;
     flex-grow: 0;
     flex-shrink: 0;
 }
@@ -21,6 +21,7 @@ main {
 }
 
 article {
+    /* article staat in een row-container dus BREEDTE */
     flex-basis: 60vw;
     flex-grow: 1;
     flex-shrink: 1;
@@ -28,6 +29,7 @@ article {
 }
 
 nav {
+    /* nav staat in een row-container dus BREEDTE */
     flex-basis: 20vw;
     flex-grow: 1;
     flex-shrink: 0;
@@ -42,7 +44,7 @@ aside {
 }
 
 footer {
-    flex-basis: 100px;
+    flex-basis: 150px;
     flex-grow: 0;
     flex-shrink: 0;
 }

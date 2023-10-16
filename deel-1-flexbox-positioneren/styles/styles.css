@@ -2,7 +2,7 @@
 
 /*Opdracht 1*/
 
-.list-items {
+.opdracht-1 .flex-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -10,76 +10,69 @@
 
 /*opdracht 2*/
 
-.list-items-2 {
+.opdracht-2 .flex-container {
     display: flex;
     flex-direction: row;
 }
 
-.item-1-1, .item-1-2, .item-1-3 {
-    flex-basis: 550px;
+.opdracht-2 .flex-item {
+    flex-basis: 240px;
 }
 
 
 /*opdracht 3*/
 
-.list-items-3 {
+.opdracht-3 .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 100%;
 }
 
-.item-1, .item-2, .item-3 {
-}
-
-.item-1 {
+.opdracht-3 .top-left {
     align-self: flex-start;
 }
 
-.item-2 {
+.opdracht-3 .centered {
     align-self: center;
 }
 
-.item-3 {
+.opdracht-3 .bottom-right {
     align-self: flex-end;
 }
 
 /*Opdracht 4*/
 
-.list-items-4 {
+.opdracht-4 .flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    row-gap: 10px;
-    column-gap: 10px;
+    gap: 10px;
 }
 
 
 /*Opdracht 5*/
 
 
-.columns {
+.opdracht-5 .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.column{
+.opdracht-5 .flex-column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    row-gap: 40px;
 }
 
-.column-1 {
+.opdracht-5 .flex-column:nth-of-type(1) {
     align-items: flex-start;
 }
 
-.column-2 {
+.opdracht-5 .flex-column:nth-of-type(2) {
     align-items: center;
 }
 
-.column-3 {
+.opdracht-5 .flex-column:nth-of-type(3){
     align-items: flex-end;
 }
